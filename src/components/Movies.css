@@ -1,7 +1,8 @@
-.movies__movie {
+.movies__movie{
     display: flex;
-    width: 45%;
-    margin: 25px;
+    width: 90%;
+    margin: 20px;
+    background-color:#c9cbff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -11,7 +12,7 @@
     margin-top: -15px;
     height: 133px;
     width: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .movies__movie__data {
@@ -22,12 +23,14 @@
     margin: 0;
     padding: 0;
     padding-bottom: 5px;
-
+    color: #eff8ff;
 }
 .movies__movie__data__year {
     margin: 0;
     padding: 0;
     padding-bottom: 5px;
+    color: #eff8ff;
+    font-weight: 500
 }
 
 .movies__movie__data__summary {
@@ -39,11 +42,14 @@ ul {
     margin:0;
     padding:0;
     padding-bottom: 15px;
-    color: rgba(0,0,0,0.5);
+    color: #eff8ff;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
 }
 li {
     padding-right: 5px;
+}
+p {
+    color: #eff8ff;
 }
